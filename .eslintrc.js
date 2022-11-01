@@ -1,11 +1,8 @@
 module.exports = {
   root: true,
-  extends: [
-    "prettier",
-    "plugin:prettier/recommended",
-    "plugin:@next/next/recommended",
-  ],
-  plugins: ["prettier"],
+  parser: 'babel-eslint',
+  extends: ['prettier', 'plugin:prettier/recommended', 'plugin:@next/next/recommended'],
+  plugins: ['prettier', 'react'],
   rules: {},
   settings: {},
   overrides: [],
